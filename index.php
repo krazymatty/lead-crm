@@ -1,10 +1,5 @@
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  Hello Phil! Testing!
-</body>
-</html>
+<?php
+// Redirect to the public directory
+header("Location: public/index.php");
+exit();  // Make sure the script stops executing after the redirect
+?>
